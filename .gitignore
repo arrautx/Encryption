@@ -1,22 +1,51 @@
-# dependencies
+# Dependencies
 node_modules/
 
-# build output
+# Next.js
+.next/
+out/
+
+# Production build
 dist/
+build/
 
-# environment variables
+# Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# logs
+# Logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # OS files
 .DS_Store
+Thumbs.db
 
-# IDE files
+# IDE / Editor
 .vscode/
 .idea/
 
-# optional
+# Testing / Coverage
 coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Misc
+*.swp
+*.swo
